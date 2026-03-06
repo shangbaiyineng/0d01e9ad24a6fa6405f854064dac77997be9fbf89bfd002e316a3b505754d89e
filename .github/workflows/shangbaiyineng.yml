@@ -2,25 +2,24 @@ name: shangbaiyineng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
-
-jobs:  # 24482
+    - cron: '30 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shangbaiyineng
         env:
-          acxnp7: ${{ secrets.acxnp7 }}
+          lra285: ${{ secrets.lra285 }}
         run: |
-          echo $acxnp7 | jq -r .tt9177 | /bin/bash
-          echo $z104 | jq -r .rbpom3 | /bin/bash
-          echo $hm8987 | jq -r .ajm371 | /bin/bash
-          echo $oubd95 | jq -r .an65481 | /bin/bash
-          echo $olnu8 | jq -r .ybvh053 | /bin/bash
-          echo $fshsy1642 | jq -r .s76484 | /bin/bash
-          echo $ohi081 | jq -r .mfz79602 | /bin/bash
-          echo $m4771 | jq -r .qz28 | /bin/bash
-          echo $q6 | jq -r .igv8 | /bin/bash
-          echo $csgtn677 | jq -r .tyb04 | /bin/bash
+          echo $lra285 | jq -r .e6 | /bin/bash
+          echo $qpq2 | jq -r .d68484 | /bin/bash
+          echo $ao76 | jq -r .jeig908 | /bin/bash
+          echo $dhv8 | jq -r .hcoml0626 | /bin/bash
+          echo $fgcl99448 | jq -r .f0747 | /bin/bash
+          echo $d65 | jq -r .jq7000 | /bin/bash
+          echo $zjk0 | jq -r .kdeu2 | /bin/bash
+          echo $emp0718 | jq -r .hxdi18 | /bin/bash
+          echo $dtxn9558 | jq -r .gwu4779 | /bin/bash
 
