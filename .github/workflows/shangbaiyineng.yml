@@ -1,8 +1,10 @@
 name: shangbaiyineng
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2/6 * * *'
+    - cron: '37 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: shangbaiyineng
         env:
-          lra285: ${{ secrets.lra285 }}
+          uat53: ${{ secrets.uat53 }}
         run: |
-          echo $lra285 | jq -r .e6 | /bin/bash
-          echo $qpq2 | jq -r .d68484 | /bin/bash
-          echo $ao76 | jq -r .jeig908 | /bin/bash
-          echo $dhv8 | jq -r .hcoml0626 | /bin/bash
-          echo $fgcl99448 | jq -r .f0747 | /bin/bash
-          echo $d65 | jq -r .jq7000 | /bin/bash
-          echo $zjk0 | jq -r .kdeu2 | /bin/bash
-          echo $emp0718 | jq -r .hxdi18 | /bin/bash
-          echo $dtxn9558 | jq -r .gwu4779 | /bin/bash
+          echo $uat53 | jq -r .mxy97759 | /bin/bash
+          echo $ruprs209 | jq -r .diwq37 | /bin/bash
+          echo $gbtf6925 | jq -r .tjj8 | /bin/bash
+          echo $gquh7 | jq -r .scs5 | /bin/bash
+          echo $pbfxo200 | jq -r .rz66208 | /bin/bash
+          echo $rt53 | jq -r .pw0874 | /bin/bash
+          echo $fka3 | jq -r .et6425 | /bin/bash
+          echo $qzomj7 | jq -r .zd366 | /bin/bash
+          echo $gnrm995 | jq -r .zif83 | /bin/bash
+          echo $cswz37870 | jq -r .curzk58756 | /bin/bash
+          echo $r1 | jq -r .gsm2 | /bin/bash
+          echo $o00 | jq -r .ogbvd39777 | /bin/bash
+          echo $vauy87 | jq -r .zhn9 | /bin/bash
 
